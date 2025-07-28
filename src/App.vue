@@ -1,16 +1,21 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import NavBar from './components/NavBar.vue';
+import NavBar from './components/NavBar.vue'
+import FooterNav from './components/FooterNav.vue';
 </script>
 
 <template>
-  <div class="w-[1440px] mx-auto ">
+  <div class="lg:max-w-[1440px] mx-auto flex flex-col justify-between">
     <header>
       <NavBar />
     </header>
-  <RouterView class="px-20 pt-[10rem] "/>
+    <main>
+      <RouterView class="px-5 pt-[4rem] lg:px-20 lg:pt-[10rem]" />
+    </main>
+    <footer>
+      <FooterNav />
+    </footer>
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

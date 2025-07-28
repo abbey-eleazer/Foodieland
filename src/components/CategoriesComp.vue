@@ -38,6 +38,25 @@ const cards = [
 <template>
 
   <div class="flex items-center justify-between mt-[9rem]">
+    <h2 class="font-semibold text-2xl lg:text-[48px]">Categories</h2>
+  <ButtonComp class="bg-primary ">
+    <p class="text-black">
+      View All Categories
+    </p>
+  </ButtonComp>
+  </div>
+  <div class="flex flex-wrap lg:flex-nowrap items-center lg:justify-between justify-center gap-2 my-10 lg:gap-0 lg:my-20">
+    <div
+      v-for="card in cards"
+      :key="card.url"
+      :class="`w-25 h-25 lg:w-45 lg:h-45 my-2 rounded-2xl lg:rounded-3xl bg-linear-to-b from-white from-40% ${card.bg} text-center font-semibold cursor-pointer hover:scale-105`"
+    >
+      <img class="mx-auto pl-8" :src="card.url" alt="" />
+      <p>{{ card.text }}</p>
+    </div>
+  </div>
+
+  <!-- <div class="flex items-center justify-between mt-[9rem]">
     <h2 class="font-semibold text-[48px]">Categories</h2>
   <ButtonComp class="bg-primary ">
     <p class="text-black">
@@ -54,5 +73,5 @@ const cards = [
       <img class="mx-auto pl-8" :src="card.url" alt="" />
       <p>{{ card.text }}</p>
     </div>
-  </div>
+  </div> -->
 </template>

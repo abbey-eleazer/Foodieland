@@ -43,7 +43,7 @@ const recipeTwo = [
   {
     img: '/src/assets/bacon pasta.png',
     title: 'The Creamiest Creamy Chicken and Bacon Pasta',
-    foodtype: 'Noodles ',
+    foodtype: 'Noodles  ',
   },
 ]
 </script>
@@ -51,15 +51,15 @@ const recipeTwo = [
 <template>
   <div>
     <div class="text-center mt-32 mb-12">
-      <h2 class="font-semibold text-[48px]">Simple and tasty recipes</h2>
-      <p class="w-[43rem] mx-auto py-4">
+      <h2 class="heading_secondary">Simple and tasty recipes</h2>
+      <p class="lg:w-[43rem] mx-auto py-4">
         Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqut enim ad minim
       </p>
     </div>
 
     <!-- cards -->
-    <div class="flex flex-wrap gap-[2.5rem]">
+    <div class="flex flex-wrap gap-[2.5rem] justify-center">
       <div v-for="recipe in recipes" :key="recipe">
         <CardBck
           :image="`${recipe.img}`"
@@ -83,4 +83,40 @@ const recipeTwo = [
       </div>
     </div>
   </div>
+
+  <!-- <div>
+    <div class="text-center mt-32 mb-12">
+      <h2 class="heading_secondary">Simple and tasty recipes</h2>
+      <p class="w-[43rem] mx-auto py-4">
+        Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqut enim ad minim
+      </p>
+    </div> -->
+
+    <!-- cards -->
+    <!-- <div class="flex flex-wrap gap-[2.5rem]">
+      <div v-for="recipe in recipes" :key="recipe">
+        <CardBck
+          :image="`${recipe.img}`"
+          :title="`${recipe.title}`"
+          :foodType="`${recipe.foodtype}`"
+          class="`${textSize: text-2xl, width: w-[25rem]}`"
+        />
+      </div> -->
+
+      <!-- ads  -->
+      <!-- <div>
+        <img src="../assets/foodieland ads.png" alt="ads" />
+      </div> -->
+
+      <!-- cards -->
+      <!-- <div v-for="recipe in recipeTwo" :key="recipe">
+        <CardBck
+          :image="`${recipe.img}`"
+          :title="`${recipe.title}`"
+          :foodType="`${recipe.foodtype}`"
+        />
+      </div>
+    </div>
+  </div> -->
 </template>

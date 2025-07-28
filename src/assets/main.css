@@ -11,4 +11,11 @@
   --color-inputbg: #F8F0E7  ;
   --color-offwhite: #FCFCFC  ;
   --color-black: #000000  ;
+
 }
+
+
+.heading_secondary {
+ @apply font-semibold text-2xl lg:text-[48px] tracking-tight
+}
+

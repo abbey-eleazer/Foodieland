@@ -12,11 +12,11 @@ defineProps({
 
 <template>
   <div
-class="w-[25rem] h-[27.2rem] p-4 rounded-2xl bg-linear-to-b from-white from-30% to-primary cursor-pointer hover:scale-101"
+class="w-[18rem] h-[19.5rem] p-2 cursor-pointer hover:scale-101"
   >
-    <div class="px-4 md:px-0">
+    <div>
       <img class="rounded-2xl " :src="image" alt="recipe-image" />
-      <p class="text-xl md:text-2xl font-semibold tracking-tight py-6">{{ title }}</p>
+      <p class="w-[18rem] text-lg font-semibold py-6">{{ title }}</p>
       <div class="flex gap-5">
         <TimeCap />
         <FoodCap :txt="foodType" />
