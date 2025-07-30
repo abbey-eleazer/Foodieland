@@ -1,10 +1,10 @@
 <script setup>
-import CategoriesComp from '@/components/CategoriesComp.vue';
-import HeroComp from '@/components/HeroComp.vue';
+import CategoriesComp from '@/components/home/CategoriesComp.vue';
+import HeroComp from '@/components/home/HeroComp.vue';
 import MoreRecipes from '@/components/MoreRecipes.vue';
-import OurInstagram from '@/components/OurInstagram.vue';
-import RecipeHome from '@/components/RecipeHome.vue';
-import SecondHero from '@/components/SecondHero.vue';
+import OurInstagram from '@/components/home/OurInstagram.vue';
+import RecipeHome from '@/components/home/RecipeHome.vue';
+import SecondHero from '@/components/home/SecondHero.vue';
 import SubscribeCard from '@/components/SubscribeCard.vue';
 
 

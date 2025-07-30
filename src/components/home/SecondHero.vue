@@ -1,5 +1,5 @@
 <script setup>
-import ButtonComp from './ButtonComp.vue'
+import ButtonComp from '../ButtonComp.vue'
 </script>
 
 <template>
@@ -10,12 +10,12 @@ import ButtonComp from './ButtonComp.vue'
       <p class="my-4 ">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio natus accusamus unde doloribus corporis consequuntur!
       </p>
-      <ButtonComp class="mt-12 mx-auto lg:mx-0 lg:mt-24">Learn More</ButtonComp>
+      <ButtonComp class="mt-12 mx-auto lg:mx-0 xl:mt-24">Learn More</ButtonComp>
     </div>
 
     <!-- image  -->
     <picture >
-      <img src="../assets/chef.png" alt="chef" />
+      <img src="../../assets/chef.png" alt="chef" />
     </picture>
   </div>
 </template>

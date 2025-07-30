@@ -1,5 +1,5 @@
 <script setup>
-import ButtonComp from './ButtonComp.vue';
+import ButtonComp from '../ButtonComp.vue';
 
 const cards = [
   {
@@ -38,14 +38,14 @@ const cards = [
 <template>
 
   <div class="flex items-center justify-between mt-[9rem]">
-    <h2 class="font-semibold text-2xl lg:text-[48px]">Categories</h2>
+    <h2 class="heading_secondary">Categories</h2>
   <ButtonComp class="bg-primary ">
     <p class="text-black">
       View All Categories
     </p>
   </ButtonComp>
   </div>
-  <div class="flex flex-wrap lg:flex-nowrap items-center lg:justify-between justify-center gap-2 my-10 lg:gap-0 lg:my-20">
+  <div class="flex flex-wrap lg:flex-nowrap items-center md:justify-between justify-center gap-2 lg:gap-3 my-10 lg:my-20">
     <div
       v-for="card in cards"
       :key="card.url"

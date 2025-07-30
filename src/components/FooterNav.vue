@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <div class=" w-[90%] mx-auto lg:w-[1440px] lg:px-20 py-5 bg-white">
+    <div class=" w-[98%] mx-auto xl:w-[1440px] lg:px-20 py-5 bg-white">
       <nav class="flex items-center justify-between border-b-2 border-gray-100 pb-12">
         <picture>
           <RouterLink to="/">
@@ -29,12 +29,12 @@
     </div>
 
     <!-- copy  -->
-    <div class=" py-12 flex justify-center lg:justify-end gap-[20rem]">
+    <div class="lg:w-[95%] py-12 flex justify-center lg:justify-end gap-[18rem]">
 
       <p class="text-center ">&copy;2025 Flowbase.Powered by <span class="text-red-500">Webflow</span></p>
 
       <!-- Socials -->
-      <div class="hidden px-18 lg:flex ">
+      <div class="hidden px-1 lg:flex ">
         <div class="flex gap-10">
           <img
             class="cursor-pointer hover:scale-105"

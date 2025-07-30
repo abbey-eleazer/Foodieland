@@ -10,7 +10,7 @@ import FooterNav from './components/FooterNav.vue';
       <NavBar />
     </header>
     <main>
-      <RouterView class="px-5 pt-[4rem] lg:px-20 lg:pt-[10rem]" />
+      <RouterView class="px-5 pt-[4rem] md:px-10 xl:px-20 lg:pt-[10rem]" />
     </main>
     <footer>
       <FooterNav />

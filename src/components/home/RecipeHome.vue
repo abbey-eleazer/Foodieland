@@ -1,5 +1,5 @@
 <script setup>
-import CardBck from './CardBck.vue'
+import CardBck from '../CardBck.vue'
 
 const recipes = [
   {
@@ -59,7 +59,7 @@ const recipeTwo = [
     </div>
 
     <!-- cards -->
-    <div class="flex flex-wrap gap-[2.5rem] justify-center">
+    <div class="w-full flex flex-wrap gap-[1rem] justify-center lg:gap-[1.5rem]">
       <div v-for="recipe in recipes" :key="recipe">
         <CardBck
           :image="`${recipe.img}`"
@@ -70,7 +70,7 @@ const recipeTwo = [
 
       <!-- ads  -->
       <div>
-        <img src="../assets/foodieland ads.png" alt="ads" />
+        <img class="md:w-[21rem] lg:w-[25rem]" src="../../assets/foodieland ads.png" alt="ads" />
       </div>
 
       <!-- cards -->

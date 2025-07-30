@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="fixed w-[99%] px-5 py-4 lg:w-[1440px] lg:px-20 lg:py-10 bg-white border-b-2 border-gray-100 z-100">
+  <div class="fixed w-[99%] px-5 py-4 xl:w-[1440px] xl:px-20 xl:py-10 bg-white border-b-2 border-gray-100 z-100">
     <nav class="flex items-center justify-between ">
       <picture>
         <RouterLink to="/">
