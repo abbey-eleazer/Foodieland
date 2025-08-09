@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import RecipePage from '@/views/RecipePage.vue'
 import HomePage from '@/views/HomePage.vue'
-import BlogListPage from '@/views/BlogListPage.vue'
+import BlogListPage from '@/views/BlogArticlePage.vue'
 import BlogPostPage from '@/views/BlogPostPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 

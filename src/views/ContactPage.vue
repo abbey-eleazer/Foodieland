@@ -1,8 +1,12 @@
 <script setup>
+import ContactForm from '@/components/ContactForm.vue';
+
 
 </script>
 
 <template>
-  <div>contact</div>
+  <div>
+    <ContactForm/>
+  </div>
 </template>
 
