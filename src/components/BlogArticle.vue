@@ -22,11 +22,11 @@ const ads = [
 
 const posts = [
   {
-    image: '../src/assets/art1.png',
+    image: './src/assets/art1.png',
     title: 'Crochet Projects for Noodle Lovers',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: 'src/assets/auth1.png',
+      img: '../assets/auth1.png',
       name: 'Wade Warren',
       date: '12 November 2021',
     },
