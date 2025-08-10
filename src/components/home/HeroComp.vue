@@ -35,7 +35,7 @@ import TimeCap from '../TimeCap.vue'
         </div>
 
         <!-- profile-pic and button  -->
-        <div class="py-5 flex items-center justify-between">
+        <div class="py-5 flex items-center justify-between lg:gap-4">
           <div class="flex">
             <img class="w-10 h-10 md:w-15 md:h-15" src="../../assets/john.png" alt="profile-pic" />
             <div>
