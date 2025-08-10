@@ -22,7 +22,7 @@ const ads = [
 
 const posts = [
   {
-    image: '../../assets/art1.png',
+    image: '../src/assets/art1.png',
     title: 'Crochet Projects for Noodle Lovers',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
