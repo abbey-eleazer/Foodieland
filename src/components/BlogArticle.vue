@@ -22,18 +22,18 @@ const ads = [
 
 const posts = [
   {
-    image: '/foodie/src/assets/art1.png',
+    image: 'http://localhost:5173/foodie/src/assets/art1.png',
     title: 'Crochet Projects for Noodle Lovers',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: '../assets/auth1.png',
+      img: 'http://localhost:5173/src/assets/auth1.png',
       name: 'Wade Warren',
       date: '12 November 2021',
     },
   },
 
   {
-    image: '/src/assets/art2.png',
+    image: 'http://localhost:5173/src/assets/art2.png',
     title: '10 Vegetarian Recipes To Eat This Month',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
