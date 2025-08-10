@@ -3,32 +3,32 @@ import ButtonComp from '../ButtonComp.vue';
 
 const cards = [
   {
-    url: '/src/assets/breakfast.png',
+    url: 'http://localhost:5173/src/assets/breakfast.png',
     text: 'Breakfast',
     bg: 'to-[#708246]/10',
   },
   {
-    url: '/src/assets/vegan.png',
+    url: 'http://localhost:5173/src/assets/vegan.png',
     text: 'Vegan',
     bg: 'to-[#6CC63F]/10',
   },
   {
-    url: '/src/assets/meat.png',
+    url: 'http://localhost:5173/src/assets/meat.png',
     text: 'Meat',
     bg: 'to-[#CC261B]/10',
   },
   {
-    url: '/src/assets/dessert.png',
+    url: 'http://localhost:5173/src/assets/dessert.png',
     text: 'Dessert',
     bg: 'to-[#F09E00]/10',
   },
   {
-    url: '/src/assets/lunch.png',
+    url: 'http://localhost:5173/src/assets/lunch.png',
     text: 'Lunch',
     bg: 'to-[#000000]/10',
   },
   {
-    url: '/src/assets/chocolate.png',
+    url: 'http://localhost:5173/src/assets/chocolate.png',
     text: 'Chocolate',
     bg: 'to-purple-500/10',
   },

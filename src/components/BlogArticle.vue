@@ -37,7 +37,7 @@ const posts = [
     title: '10 Vegetarian Recipes To Eat This Month',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: '/src/assets/auth3.png',
+      img: 'http://localhost:5173/src/assets/auth3.png',
       name: 'Robert Fox',
       date: '12 November 2021',
     },
