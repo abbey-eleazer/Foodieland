@@ -3,27 +3,27 @@ import CardBck from '../CardBck.vue'
 
 const recipes = [
   {
-    img: '/src/assets/burgar.png',
+    img: 'http://localhost:5173/src/assets/burgar.png',
     title: 'Big and Juicy Wagyu Beef Cheeseburger',
     foodtype: 'snack',
   },
   {
-    img: '/src/assets/salmon.png',
+    img: 'http://localhost:5173/src/assets/salmon.png',
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     foodtype: 'Fish',
   },
   {
-    img: '/src/assets/pancake.png',
+    img: 'http://localhost:5173/src/assets/pancake.png',
     title: 'Strawberry Oatmeal Pancake with Honey Syrup',
     foodtype: 'Breakfast',
   },
   {
-    img: '/src/assets/salad.png',
+    img: 'http://localhost:5173/src/assets/salad.png',
     title: 'Fresh and Healthy Mixed Mayonnaise Salad',
     foodtype: 'Healthy',
   },
   {
-    img: '/src/assets/meatballs.png',
+    img: 'http://localhost:5173/src/assets/meatballs.png',
     title: 'Chicken Meatballs with Cream Cheese',
     foodtype: 'Meat',
   },
@@ -31,17 +31,17 @@ const recipes = [
 
 const recipeTwo = [
   {
-    img: '/src/assets/orange and blueberry.png',
+    img: 'http://localhost:5173/src/assets/orange and blueberry.png',
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     foodtype: 'Sweet',
   },
   {
-    img: '/src/assets/chicken and rice.png',
+    img: 'http://localhost:5173/src/assets/chicken and rice.png',
     title: 'The Best Easy One Pot Chicken and Rice',
     foodtype: 'snack',
   },
   {
-    img: '/src/assets/bacon pasta.png',
+    img: 'http://localhost:5173/src/assets/bacon pasta.png',
     title: 'The Creamiest Creamy Chicken and Bacon Pasta',
     foodtype: 'Noodles  ',
   },

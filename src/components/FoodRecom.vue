@@ -3,22 +3,22 @@ import NoBgCard from './NoBgCard.vue';
 
 const moreRecipes = [
   {
-    url: '/src/assets/fruit salad.png',
+    url: 'http://localhost:5173/src/assets/fruit salad.png',
     title: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     foodtype: 'Healthy',
   },
   {
-    url: '/src/assets/beef.png',
+    url: 'http://localhost:5173/src/assets/beef.png',
     title: 'Big and Juicy Wagyu Beef Cheeseburger ',
     foodtype: 'Western ',
   },
   {
-    url: '/src/assets/fried rice.png',
+    url: 'http://localhost:5173/src/assets/fried rice.png',
     title: 'Healthy Japanese Fried Rice with Asparagus',
     foodtype: 'Healthy',
   },
   {
-    url: '/src/assets/taco.png',
+    url: 'http://localhost:5173/src/assets/taco.png',
     title: 'Cauliflower Walnut Vegetarian Taco Meat',
     foodtype: 'Eastern',
   },

@@ -3,10 +3,10 @@ import ButtonComp from '../ButtonComp.vue';
 
 
 const images = [
-  '/src/assets/post.png',
-  '/src/assets/post2.png',
-  '/src/assets/post3.png',
-  '/src/assets/post4.png',
+  'http://localhost:5173/src/assets/post.png',
+  'http://localhost:5173/src/assets/post2.png',
+  'http://localhost:5173/src/assets/post3.png',
+  'http://localhost:5173/src/assets/post4.png',
 ]
 
 </script>

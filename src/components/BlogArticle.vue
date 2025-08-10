@@ -4,17 +4,17 @@ import ThirdCard from '@/components/ThirdCard.vue'
 
 const ads = [
   {
-    img: '/src/assets/ads4.png',
+    img: 'http://localhost:5173/src/assets/ads4.png',
     title: 'Chicken Meatballs with Cream Cheese ',
     author: 'By Andreas Paula',
   },
   {
-    img: '/src/assets/ads5.png',
+    img: 'http://localhost:5173/src/assets/ads5.png',
     title: ' Traditional Bolognaise Ragu',
     author: 'By Andreas Paula',
   },
   {
-    img: '/src/assets/ads6.png',
+    img: 'http://localhost:5173/src/assets/ads6.png',
     title: 'Pork and Chive Chinese Dumplings',
     author: 'By Andreas Paula',
   },
@@ -22,7 +22,7 @@ const ads = [
 
 const posts = [
   {
-    image: 'http://localhost:5173/foodie/src/assets/art1.png',
+    image: 'http://localhost:5173/src/assets/art1.png',
     title: 'Crochet Projects for Noodle Lovers',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
@@ -43,41 +43,41 @@ const posts = [
     },
   },
   {
-    image: '/src/assets/art3.png',
+    image: 'http://localhost:5173/src/assets/art3.png',
     title: 'Full Guide to Becoming a Professional Chef',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: '/src/assets/auth4.png',
+      img: 'http://localhost:5173/src/assets/auth4.png',
       name: 'Dianne Russell',
       date: '12 November 2021',
     },
   },
   {
-    image: '/src/assets/art4.png',
+    image: 'http://localhost:5173/src/assets/art4.png',
     title: 'Simple & Delicious Vegetarian Lasagna',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: '/src/assets/auth5.png',
+      img: 'http://localhost:5173/src/assets/auth5.png',
       name: 'Leslie Alexander',
       date: '12 November 2021',
     },
   },
    {
-    image: '/src/assets/art6.png',
+    image: 'http://localhost:5173/src/assets/art6.png',
     title: 'Plantain and Pinto Stew with Aji Verde',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: '/src/assets/auth2.png',
+      img: 'http://localhost:5173/src/assets/auth2.png',
       name: 'Courtney Henry',
       date: '12 November 2021',
     },
   },
   {
-    image: '/src/assets/art5.png',
+    image: 'http://localhost:5173/src/assets/art5.png',
     title: 'We’re Hiring a Communications Assistant!',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: '/src/assets/auth6.png',
+      img: 'http://localhost:5173/src/assets/auth6.png',
       name: 'Albert Flores',
       date: '12 November 2021',
     },

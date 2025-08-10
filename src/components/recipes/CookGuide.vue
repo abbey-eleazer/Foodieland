@@ -3,17 +3,17 @@ import ThirdCard from '../ThirdCard.vue'
 
 const ads = [
   {
-    img: '/src/assets/ads1.png',
+    img: 'http://localhost:5173/src/assets/ads1.png',
     title: 'Chicken Meatball with Creamy Chees...',
     author: 'By Andreas Paula',
   },
   {
-    img: '/src/assets/ads2.png',
+    img: 'http://localhost:5173/src/assets/ads2.png',
     title: 'The Creamiest Creamy Chicken an...',
     author: 'By Andreas Paula',
   },
   {
-    img: '/src/assets/ads3.png',
+    img: 'http://localhost:5173/src/assets/ads3.png',
     title: 'The Best Easy One Pot Chicken and Rice ',
     author: 'By Andreas Paula',
   },
