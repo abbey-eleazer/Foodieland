@@ -95,7 +95,7 @@ const recipeTwo = [
 
       <!-- ads  -->
       <div>
-        <img class="md:w-[21rem] lg:w-[25rem]" src="../../assets/foodieland ads.png" alt="ads" />
+        <img class="md:w-[21rem] lg:w-[25rem]" src="../../assets/foodieland-green.png" alt="ads" />
       </div>
 
       <!-- cards -->
