@@ -1,6 +1,6 @@
 <script setup>
 import CardBck from '../CardBck.vue';
-import Burgar from '../../assets/burgar.png'
+import Burgar from './../../assets/burgar.png'
 import Salmon from '../../assets/salmon.png'
 import Pancake from '../../assets/pancake.png'
 import Salad from '../../assets/salad.png'
