@@ -3,27 +3,27 @@ import CardBck from '../CardBck.vue'
 
 const recipes = [
   {
-    img: 'http://localhost:5173/src/assets/burgar.png',
+    img: 'src/assets/burgar.png',
     title: 'Big and Juicy Wagyu Beef Cheeseburger',
     foodtype: 'snack',
   },
   {
-    img: 'http://localhost:5173/src/assets/salmon.png',
+    img: 'src/assets/salmon.png',
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     foodtype: 'Fish',
   },
   {
-    img: 'http://localhost:5173/src/assets/pancake.png',
+    img: 'src/assets/pancake.png',
     title: 'Strawberry Oatmeal Pancake with Honey Syrup',
     foodtype: 'Breakfast',
   },
   {
-    img: 'http://localhost:5173/src/assets/salad.png',
+    img: 'src/assets/salad.png',
     title: 'Fresh and Healthy Mixed Mayonnaise Salad',
     foodtype: 'Healthy',
   },
   {
-    img: 'http://localhost:5173/src/assets/meatballs.png',
+    img: 'src/assets/meatballs.png',
     title: 'Chicken Meatballs with Cream Cheese',
     foodtype: 'Meat',
   },
@@ -31,21 +31,38 @@ const recipes = [
 
 const recipeTwo = [
   {
-    img: 'http://localhost:5173/src/assets/orange and blueberry.png',
+    img: 'src/assets/orange and blueberry.png',
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     foodtype: 'Sweet',
   },
   {
-    img: 'http://localhost:5173/src/assets/chicken and rice.png',
+    img: 'src/assets/chicken and rice.png',
     title: 'The Best Easy One Pot Chicken and Rice',
     foodtype: 'snack',
   },
   {
-    img: 'http://localhost:5173/src/assets/bacon pasta.png',
+    img: 'src/assets/bacon pasta.png',
     title: 'The Creamiest Creamy Chicken and Bacon Pasta',
     foodtype: 'Noodles  ',
   },
 ]
+// import axiosClient from '../../axiosClient.js'
+// import { ref, onMounted } from "vue";
+
+// let movies = ref([]);
+
+// onMounted(
+//    async() => {
+//     const res = await axiosClient.get('https://www.themealdb.com/api/json/v1/1/', {
+//       headers: {
+//         'Access-Control-Allow-Origin': '*',
+//       }
+//     })
+//     movies.value = res.data.data
+//     // return movies.value
+//     console.log(movies)
+//   }
+//   )
 </script>
 
 <template>
