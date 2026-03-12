@@ -3,7 +3,6 @@ import ButtonComp from '../ButtonComp.vue';
 import Post1 from '../../assets/Post.png';
 import Post2 from '../../assets/Post2.png';
 import Post3 from '../../assets/Post3.png';
-import Post4 from '../../assets/Post4.png';
 
 
 const images = [
