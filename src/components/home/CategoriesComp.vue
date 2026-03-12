@@ -1,40 +1,46 @@
 <script setup>
 import ButtonComp from '../ButtonComp.vue';
+import Breakfast from '../../assets/breakfast.png'
+import Vegan from '../../assets/vegan.png'
+import Meat from '../../assets/meat.png'
+import Dessert from '../../assets/dessert.png'
+import Lunch from '../../assets/lunch.png'
+import Chocolate from '../../assets/chocolate.png'
 
 const cards = [
   {
     id: 1,
-    url: 'src/assets/breakfast.png',
+    url: Breakfast,
     text: 'Breakfast',
     bg: 'to-[#708246]/10',
   },
   {
     id: 2,
-    url: 'src/assets/vegan.png',
+    url: Vegan,
     text: 'Vegan',
     bg: 'to-[#6CC63F]/10',
   },
   {
     id: 3,
-    url: 'src/assets/meat.png',
+    url: Meat,
     text: 'Meat',
     bg: 'to-[#CC261B]/10',
   },
   {
     id: 4,
-    url: 'src/assets/dessert.png',
+    url: Dessert,
     text: 'Dessert',
     bg: 'to-[#F09E00]/10',
   },
   {
     id: 5,
-    url: 'src/assets/lunch.png',
+    url: Lunch,
     text: 'Lunch',
     bg: 'to-[#000000]/10',
   },
   {
     id: 6,
-    url: 'src/assets/chocolate.png',
+    url: Chocolate,
     text: 'Chocolate',
     bg: 'to-purple-500/10',
   },
