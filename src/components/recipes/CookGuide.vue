@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import ThirdCard from '../ThirdCard.vue'
-import Ads1 from 'src/assets/ads1.png'
-import Ads2 from 'src/assets/ads2.png'
-import Ads3 from 'src/assets/ads3.png'
+import Ads1 from '../../assets/ads1.png'
+import Ads2 from '../../assets/ads2.png'
+import Ads3 from '../../assets/ads3.png'
 
 const ads = [
   {
