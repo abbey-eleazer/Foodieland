@@ -1,24 +1,28 @@
 <script lang="ts" setup>
 import NoBgCard from './NoBgCard.vue';
+import Fruit from 'src/assets/fruit salad.png'
+import Beef from 'src/assets/beef.png'
+import Fried from 'src/assets/fried rice.png'
+import Taco from 'src/assets/taco.png'
 
 const moreRecipes = [
   {
-    url: 'src/assets/fruit salad.png',
+    url: Fruit,
     title: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     foodtype: 'Healthy',
   },
   {
-    url: 'src/assets/beef.png',
+    url: Beef,
     title: 'Big and Juicy Wagyu Beef Cheeseburger ',
     foodtype: 'Western ',
   },
   {
-    url: 'src/assets/fried rice.png',
+    url: Fried,
     title: 'Healthy Japanese Fried Rice with Asparagus',
     foodtype: 'Healthy',
   },
   {
-    url: 'src/assets/taco.png',
+    url: Taco,
     title: 'Cauliflower Walnut Vegetarian Taco Meat',
     foodtype: 'Eastern',
   },

@@ -1,19 +1,22 @@
 <script lang="ts" setup>
 import ThirdCard from '../ThirdCard.vue'
+import Ads1 from 'src/assets/ads1.png'
+import Ads2 from 'src/assets/ads2.png'
+import Ads3 from 'src/assets/ads3.png'
 
 const ads = [
   {
-    img: 'src/assets/ads1.png',
+    img: Ads1,
     title: 'Chicken Meatball with Creamy Chees...',
     author: 'By Andreas Paula',
   },
   {
-    img: 'src/assets/ads2.png',
+    img: Ads2,
     title: 'The Creamiest Creamy Chicken an...',
     author: 'By Andreas Paula',
   },
   {
-    img: 'src/assets/ads3.png',
+    img: Ads3,
     title: 'The Best Easy One Pot Chicken and Rice ',
     author: 'By Andreas Paula',
   },

@@ -1,29 +1,37 @@
 <script setup>
-import CardBck from '../CardBck.vue'
+import CardBck from '../CardBck.vue';
+import Burgar from '../../assets/burgar.png'
+import Salmon from '../../assets/salmon.png'
+import Pancake from '../../assets/pancake.png'
+import Salad from '../../assets/salad.png'
+import Meatballs from '../../assets/meatballs.png'
+import Orange from '../../assets/orange and blueberry.png'
+import Chicken from '../../assets/chicken and rice.png'
+import Bacon from '../../assets/bacon pasta.png'
 
 const recipes = [
   {
-    img: 'src/assets/burgar.png',
+    img: Burgar,
     title: 'Big and Juicy Wagyu Beef Cheeseburger',
     foodtype: 'snack',
   },
   {
-    img: 'src/assets/salmon.png',
+    img: Salmon,
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     foodtype: 'Fish',
   },
   {
-    img: 'src/assets/pancake.png',
+    img: Pancake,
     title: 'Strawberry Oatmeal Pancake with Honey Syrup',
     foodtype: 'Breakfast',
   },
   {
-    img: 'src/assets/salad.png',
+    img: Salad,
     title: 'Fresh and Healthy Mixed Mayonnaise Salad',
     foodtype: 'Healthy',
   },
   {
-    img: 'src/assets/meatballs.png',
+    img: Meatballs,
     title: 'Chicken Meatballs with Cream Cheese',
     foodtype: 'Meat',
   },
@@ -31,17 +39,17 @@ const recipes = [
 
 const recipeTwo = [
   {
-    img: 'src/assets/orange and blueberry.png',
+    img: Orange,
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     foodtype: 'Sweet',
   },
   {
-    img: 'src/assets/chicken and rice.png',
+    img: Chicken,
     title: 'The Best Easy One Pot Chicken and Rice',
     foodtype: 'snack',
   },
   {
-    img: 'src/assets/bacon pasta.png',
+    img: Bacon,
     title: 'The Creamiest Creamy Chicken and Bacon Pasta',
     foodtype: 'Noodles  ',
   },

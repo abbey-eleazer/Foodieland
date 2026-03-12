@@ -1,12 +1,16 @@
 <script setup>
 import ButtonComp from '../ButtonComp.vue';
+import Post1 from '../../assets/post.png';
+import Post2 from '../../assets/post2.png';
+import Post3 from '../../assets/post3.png';
+import Post4 from '../../assets/post4.png';
 
 
 const images = [
-  'src/assets/post.png',
-  'src/assets/post2.png',
-  'src/assets/post3.png',
-  'src/assets/post4.png',
+  Post1,
+  Post2,
+  Post3,
+  Post4,
 ]
 
 </script>

@@ -1,20 +1,35 @@
 <script setup>
 import ButtonComp from '@/components/ButtonComp.vue'
 import ThirdCard from '@/components/ThirdCard.vue'
+import Ads4 from 'src/assets/ads4.png'
+import Ads5 from 'src/assets/ads5.png'
+import Ads6 from 'src/assets/ads6.png'
+import Art1 from 'src/assets/art1.png'
+import Art2 from 'src/assets/art2.png'
+import Art3 from 'src/assets/art3.png'
+import Art4 from 'src/assets/art4.png'
+import Art5 from 'src/assets/art5.png'
+import Art6 from 'src/assets/art6.png'
+import Auth1 from 'src/assets/auth1.png'
+import Auth2 from 'src/assets/auth2.png'
+import Auth3 from 'src/assets/auth3.png'
+import Auth4 from 'src/assets/auth4.png'
+import Auth5 from 'src/assets/auth5.png'
+import Auth6 from 'src/assets/auth6.png'
 
 const ads = [
   {
-    img: 'src/assets/ads4.png',
+    img: Ads4,
     title: 'Chicken Meatballs with Cream Cheese ',
     author: 'By Andreas Paula',
   },
   {
-    img: 'src/assets/ads5.png',
+    img: Ads5,
     title: ' Traditional Bolognaise Ragu',
     author: 'By Andreas Paula',
   },
   {
-    img: 'src/assets/ads6.png',
+    img: Ads6,
     title: 'Pork and Chive Chinese Dumplings',
     author: 'By Andreas Paula',
   },
@@ -22,62 +37,62 @@ const ads = [
 
 const posts = [
   {
-    image: 'src/assets/art1.png',
+    image: Art1,
     title: 'Crochet Projects for Noodle Lovers',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: 'src/assets/auth1.png',
+      img: Auth1,
       name: 'Wade Warren',
       date: '12 November 2021',
     },
   },
 
   {
-    image: 'src/assets/art2.png',
+    image: Art2,
     title: '10 Vegetarian Recipes To Eat This Month',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: 'src/assets/auth3.png',
+      img: Auth3,
       name: 'Robert Fox',
       date: '12 November 2021',
     },
   },
   {
-    image: 'src/assets/art3.png',
+    image: Art3,
     title: 'Full Guide to Becoming a Professional Chef',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: 'src/assets/auth4.png',
+      img: Auth4,
       name: 'Dianne Russell',
       date: '12 November 2021',
     },
   },
   {
-    image: 'src/assets/art4.png',
+    image: Art4,
     title: 'Simple & Delicious Vegetarian Lasagna',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: 'src/assets/auth5.png',
+      img: Auth5,
       name: 'Leslie Alexander',
       date: '12 November 2021',
     },
   },
    {
-    image: 'src/assets/art6.png',
+    image: Art6,
     title: 'Plantain and Pinto Stew with Aji Verde',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: 'src/assets/auth2.png',
+      img: Auth2,
       name: 'Courtney Henry',
       date: '12 November 2021',
     },
   },
   {
-    image: 'src/assets/art5.png',
+    image: Art5,
     title: 'We’re Hiring a Communications Assistant!',
     text: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqut enim ',
     author: {
-      img: 'src/assets/auth6.png',
+      img: Auth6,
       name: 'Albert Flores',
       date: '12 November 2021',
     },
