@@ -1,35 +1,34 @@
 <script setup>
 import ButtonComp from '@/components/ButtonComp.vue'
 import ThirdCard from '@/components/ThirdCard.vue'
-import Ads4 from '../../assets/ads4.png'
-import Ads5 from '../../assets/ads5.png'
-import Ads6 from '../../assets/ads6.png'
-import Art1 from '../../assets/art1.png'
-import Art2 from '../../assets/art2.png'
-import Art3 from '../../assets/art3.png'
-import Art4 from '../../assets/art4.png'
-import Art5 from '../../assets/art5.png'
-import Art6 from '../../assets/art6.png'
-import Auth1 from '../../assets/auth1.png'
-import Auth2 from '../../assets/auth2.png'
-import Auth3 from '../../assets/auth3.png'
-import Auth4 from '../../assets/auth4.png'
-import Auth5 from '../../assets/auth5.png'
-import Auth6 from '../../assets/auth6.png'
-
+import Pads4 from '../assets/pads4.png'
+import Pads5 from '../assets/pads5.png'
+import Pads6 from '../assets/pads6.png'
+import Art1 from '../assets/art1.png'
+import Art2 from '../assets/art2.png'
+import Art3 from '../assets/art3.png'
+import Art4 from '../assets/art4.png'
+import Art5 from '../assets/art5.png'
+import Art6 from '../assets/art6.png'
+import Auth1 from '../assets/auth1.png'
+import Auth2 from '../assets/auth2.png'
+import Auth3 from '../assets/auth3.png'
+import Auth4 from '../assets/auth4.png'
+import Auth5 from '../assets/auth5.png'
+import Auth6 from '../assets/auth6.png'
 const ads = [
   {
-    img: Ads4,
+    img: Pads4,
     title: 'Chicken Meatballs with Cream Cheese ',
     author: 'By Andreas Paula',
   },
   {
-    img: Ads5,
+    img: Pads5,
     title: ' Traditional Bolognaise Ragu',
     author: 'By Andreas Paula',
   },
   {
-    img: Ads6,
+    img: Pads6,
     title: 'Pork and Chive Chinese Dumplings',
     author: 'By Andreas Paula',
   },

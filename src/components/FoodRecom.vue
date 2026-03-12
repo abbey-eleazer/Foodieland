@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 import NoBgCard from './NoBgCard.vue';
-import Fruit from '../../assets/fruit salad.png'
-import Beef from '../../assets/beef.png'
-import Fried from '../../assets/fried rice.png'
-import Taco from '../../assets/taco.png'
+import Fruit from '../assets/fruit salad.png'
+import Beef from '../assets/beef.png'
+import Fried from '../assets/fried rice.png'
+import Taco from '../assets/taco.png'
 
 const moreRecipes = [
   {

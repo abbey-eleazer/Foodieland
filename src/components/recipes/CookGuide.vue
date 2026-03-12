@@ -1,22 +1,22 @@
 <script lang="ts" setup>
 import ThirdCard from '../ThirdCard.vue'
-import Ads1 from '../../assets/ads1.png'
-import Ads2 from '../../assets/ads2.png'
-import Ads3 from '../../assets/ads3.png'
+import Pads1 from '../../assets/pads1.png'
+import Pads2 from '../../assets/pads2.png'
+import Pads3 from '../../assets/pads3.png'
 
 const ads = [
   {
-    img: Ads1,
+    img: Pads1,
     title: 'Chicken Meatball with Creamy Chees...',
     author: 'By Andreas Paula',
   },
   {
-    img: Ads2,
+    img: Pads2,
     title: 'The Creamiest Creamy Chicken an...',
     author: 'By Andreas Paula',
   },
   {
-    img: Ads3,
+    img: Pads3,
     title: 'The Best Easy One Pot Chicken and Rice ',
     author: 'By Andreas Paula',
   },
@@ -140,7 +140,7 @@ const ads = [
 
     <!-- ads  -->
     <div class="w-[25rem] px-4">
-      <p  class="font-semibold text-xl md:text-2xl py-5">Other Recipe</p>
+      <p class="font-semibold text-xl md:text-2xl py-5">Other Recipe</p>
       <div v-for="item in ads" :key="item.author">
         <ThirdCard>
           <img :src="item.img" alt="" />
@@ -151,7 +151,7 @@ const ads = [
         </ThirdCard>
       </div>
       <div>
-        <img src="../../assets/foodieland ads.png " alt="">
+        <img src="../../assets/foodieland ads.png " alt="" />
       </div>
     </div>
   </div>
